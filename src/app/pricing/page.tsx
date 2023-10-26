@@ -135,7 +135,7 @@ const PricingPage = async () => {
                         <ArrowRight className="h-5 w-5 ml-1.5" />
                       </Link>
                     ) : user ? (
-                      <UpgradeButton />
+                      <UpgradeButton isSubscribed={true} />
                     ) : (
                       <Link
                         href="/sign-in"
